@@ -8,7 +8,7 @@
 int main() {
     
     //Declaração de Variáveis para carta 1
-     
+
     char estado; 
     char codigo[3];
     char nome [50]; 
@@ -51,7 +51,7 @@ int main() {
 
  //Declaração de Variáveis para carta 2
 
- char estado02[20]; 
+ char estado02; 
  char codigo02[3];
  char nome02 [50]; 
  int populacao02; 

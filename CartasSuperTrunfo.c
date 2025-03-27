@@ -5,11 +5,10 @@
 // Este código inicial serve como base para o desenvolvimento do sistema de cadastro de cartas de cidades.
 // Siga os comentários para implementar cada parte do desafio.
 
-
 int main() {
     
     //Declaração de Variáveis para carta 1
-    
+     
     char estado; 
     char codigo[3];
     char nome [50]; 
@@ -41,8 +40,8 @@ int main() {
   printf("Digite a quantidade de pontos turisticos na cidade:  \n"); 
   scanf("%d", &pontos); 
 
-  //Exibição dos dados da carta 1
-  
+  //Exibição dos dados da carta 1 
+ 
   printf("Carta 1 \n");
   printf("- Estado: %s \n", estado);
   printf("- Código da Carta: %s \n",codigo); 

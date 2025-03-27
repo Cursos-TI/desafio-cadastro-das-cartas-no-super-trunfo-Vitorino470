@@ -44,7 +44,8 @@ int main() {
   //Exibição dos dados da carta 1
   
   printf("Carta 1 \n");
-  printf("- Estado: %s \n - Código da Carta: %s \n", estado, codigo); 
+  printf("- Estado: %s \n", estado);
+  printf("- Código da Carta: %s \n",codigo); 
   printf("- Nome da Cidade: %s \n - População: %d habitantes \n", nome, populacao);
   printf("- Área em Km²: %.2f Km² \n - PIB: %.2f bilhões de Reais \n", area, pib);
   printf("- Número de Pontos Turísticos: %d \n", pontos);
